@@ -8,5 +8,10 @@ namespace Win_Banco
 {
     internal class TipoCuenta
     {
+        public string NombreTipo { get; set; }
+        public override string ToString()
+        {
+            return NombreTipo;
+        }
     }
 }
